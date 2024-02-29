@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial;
+    padding: 15px;
+}
+
+.formulario{
+    margin-top: 50px;
+    margin-left: 610px;
+    border-radius: 5px;
+    background: rgb(9,125,75);
+    background: linear-gradient(90deg, rgba(9,125,75,1) 0%, rgba(0,212,255,1) 100%);
+    width: 500px;
+    height: 45  0px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.nome{
+    margin: 5px 10px;
+    padding: 5px;
+    width: 465px;
+}
+
+.gmail{
+    margin: 5px 10px;
+    padding: 5px;
+    width: 465px;
+}
+
+.senha{
+    margin: 5px 10px;
+    padding: 5px;
+    width: 465px;
+}
+
+.idade{
+    margin: 5px 10px;
+    padding: 5px;
+    width: 465px;
+}
+
+.btn_enviar{
+    margin: 5px 10px;
+    padding: 5px;
+    width: 465px;
+
+}
+
+.opcao{
+    margin: 5px 10px;
+    padding: 5px;
+    width: 480px;
+}
+
+.msg{
+    margin: 5px 10px;
+    padding: 5px;
+    width: 465px;
+}
