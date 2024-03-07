@@ -3,6 +3,16 @@
     padding: 0px;
 }
 
+@font-face{
+    font-family: sst;
+    src:url(../fontes/sst-cufonfonts/SSTBold.TTF)
+}
+
+@font-face{
+    font-family: sst2;
+    src:url(../fontes/sst-cufonfonts/SSTLight.TTF)
+}
+
 .div_header{
     background-color: black;
     width: 100%;
@@ -15,7 +25,7 @@
 body{
     background-image: url("../imagens/background_light.jpg");
     background-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sst2, Arial, Helvetica, sans-serif;
 }
 
 .main{
@@ -29,7 +39,7 @@ body{
     align-items: center;
     justify-content: center;
     width: 50%;
-    height: 920px;
+    height: 900px;
 }
 
 .div_direita{
@@ -38,25 +48,39 @@ body{
     justify-content: center;
     text-align: center;
     width: 50%;
-    height: 1000px;
+    height: 100%;
     background-color: rgb(255, 255, 255);
     opacity: 95%;
 }
 
+.retorna{
+    color: #D2D4D9;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.logo_playstation{
+    width: 300px;
+}
+
 .titulo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-family: sst2, Arial, Helvetica, sans-serif;
+    font-size: 28px;
     padding: 30px;
+    margin-top: 250px;
 }
 
 .e_mail{
     padding: 10px 6px 10px 14px;
     width: 479.7px;
-    height: 41px;
+    height: 40px;
     border-radius: 50px;
     border-color: white;
     border-style: solid;
-    background-color: rgb(201, 197, 197);
+    background-color: #cac6c660;
+    font-family: sst2, Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 .e_mail::placeholder{
@@ -64,39 +88,61 @@ body{
 }
 
 .btn_seguinte{
-    margin: 20px;
+    padding: 0px 0px;
+    margin: 14px 0px 0px;
     width: 500px;
-    height: 41px;
+    height: 52px;
     border-radius: 50px;
     border-color: white;
     border-style: solid;
-    background-color: black;
-    color: white;
-    font-weight: bolder;
+    background-color: #2C2D3699;
+    color: #D2D4D9;
+    font-family: sst, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+a{
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
 a:link{
-    color: blue;
-}
-
-a:hover{
-    color: blue;
-    text-decoration: underline;
-    font-weight: bold;
+    color: #0068BD;
+    text-decoration: none;
 }
 
 a:visited{
-    color: blue;
+    color: #0068BD;
+}
+
+a:hover{
+    color: #054274;
+    text-decoration: none;
 }
 
 .btn_criar{
-    margin: 20px;
+    margin: 25px;
     width: 500px;
-    height: 41px;
+    height: 48px;
     border-radius: 50px;
     border-color: white;
     border-style: solid;
-    background-color: black;
-    color: white;
-    font-weight: bolder;
+    background-color: #0000000F;
+    color: #0068BD;
+    font-family: sst, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.btn_criar:hover{
+    color: #065291;
+    background-color: #0000000A;
+}
+
+.sobre_conta{
+    padding: 20px;
+}
+
+.a_ajuda{
+    margin-top: 221px;
+    padding-bottom: 20px;
 }
