@@ -15,6 +15,7 @@
 body{
     background-image: url("../imagens/background_light.jpg");
     background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main{
@@ -32,12 +33,12 @@ body{
 }
 
 .div_direita{
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 50%;
-    height: 920px;
+    height: 1000px;
     background-color: rgb(255, 255, 255);
     opacity: 95%;
 }
@@ -45,10 +46,57 @@ body{
 .titulo{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
+    padding: 30px;
 }
 
 .e_mail{
     padding: 10px 6px 10px 14px;
     width: 479.7px;
     height: 41px;
+    border-radius: 50px;
+    border-color: white;
+    border-style: solid;
+    background-color: rgb(201, 197, 197);
+}
+
+.e_mail::placeholder{
+    color: gray;
+}
+
+.btn_seguinte{
+    margin: 20px;
+    width: 500px;
+    height: 41px;
+    border-radius: 50px;
+    border-color: white;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+a:link{
+    color: blue;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:visited{
+    color: blue;
+}
+
+.btn_criar{
+    margin: 20px;
+    width: 500px;
+    height: 41px;
+    border-radius: 50px;
+    border-color: white;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
 }
