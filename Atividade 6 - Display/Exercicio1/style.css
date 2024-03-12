@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(54, 54, 54);
+    font-family: Arial;
+    font-size: 15   px;
+    height: 40px;
+    width: 1800px;
+}
+
+a{
+    display: inline;
+    margin: 0px 10px 0px 10px;   
+    text-decoration: none;
+    color: white;
+}  
