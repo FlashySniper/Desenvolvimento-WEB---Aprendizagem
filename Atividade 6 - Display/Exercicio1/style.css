@@ -5,17 +5,15 @@
 
 body{
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
+    margin-left: 50px;
+    display: block;
 }
 
 .menu{
-    display: flex;
-    align-items: center;
-    justify-content: start;
+    display: block;
+    padding-top: 20px;
     background-color: rgb(54, 54, 54);
     font-family: Arial;
-    font-size: 15   px;
     height: 40px;
     width: 1800px;
 }
