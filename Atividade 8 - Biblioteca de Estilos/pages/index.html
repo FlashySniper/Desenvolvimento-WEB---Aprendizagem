@@ -8,15 +8,15 @@
 </head>
 <body class="body_claro">
 
-<div class="card">
-    <header class="header_escuro">
-        <p class="p_header_claro">Teste teste teste</p>
-    </header>
+<header class="header_claro">
+    <p class="p_header_claro">Teste teste teste</p>
+</header>
 
-    <div class="div_formulario">
+<div class="main">
+    <div class="">
         <form class="formulario">
             <div>
-                <label class="label_escuro">Nome:</label>
+                <label class="label_claro">Nome:</label>
                 <input type="text" class="input_nome" placeholder="Digite seu nome...">
             </div>
             <div>
@@ -29,11 +29,19 @@
             </div>
             <div>
                 <label>Satisfação:</label>
-                <input type="range" class="input_range">
+                <input type="range" class="input_range"  min='0' max='100' step='1'>
+                <span class="range_span">50%</span>
             </div>
             <div>
                 <input type="checkbox" class="input_check">
                 <label>Condorda com os termos?  </label>
+            </div>
+            <div>
+                <select class="caixa_selecao">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
             </div>
         </form>
 
@@ -49,7 +57,7 @@
         <input type="button" value="Cancelar" class="btn_cancela_pequeno_com_fundo">
         <input type="button" value="Cancelar" class="btn_cancela_pequeno_sem_fundo">
 
-        <p>Obrigrado por utilizar este site</p>
+        <p class="paragrafo_claro">Obrigrado por utilizar este site</p>
     </div>
 </div>
 
