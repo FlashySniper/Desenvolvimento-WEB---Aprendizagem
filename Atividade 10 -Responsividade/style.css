@@ -42,6 +42,18 @@ padding: 15px;
     width: 30vw;
     height: 4vh;
     border-radius: 5px;
+    background-color: rgb(54, 80, 136);
+    color: white;
+    border: outset rgb(54, 80, 136);
+}
+
+.btn_personalizado:hover{
+    transition: 500ms;
+    background-color: rgb(73, 109, 185);
+}
+
+.btn_personalizado:active{
+    border: inset white;
 }
 
 .input_camp{
