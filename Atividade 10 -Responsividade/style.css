@@ -48,7 +48,7 @@ padding: 15px;
 }
 
 .btn_personalizado:hover{
-    transition: 500ms;
+    transition: 1000ms;
     background-color: rgb(73, 109, 185);
 }
 
