@@ -1,20 +1,32 @@
-//soma dos termos pares
+function ehPrimo(num) {
+    if (num <= 1) return false
+    if (num <= 3) return true
 
-somaPares = Number(0)
-aux = Number(0)
-fibonacci = Number(1)
+    if (num % 2 === 0 || num % 3 === 0) return false
 
-
-while(somaPares < 50000){
-    if(fibonacci % 2 == 0){
-        somaPares += fibonacci
+    for (let i = 5; i * i <= num; i += 6) {
+        if (num % i === 0 || num % (i + 2) === 0) return false
     }
-    fibonacci += aux
-    aux += fibonacci
-    console.log(fibonacci)
-    console.log(somaPares)
+
+    return true
 }
 
-msg = `A soma dos termos pares de Fibonacci menores que 50.000 é: ${somaPares}`
 
-document.getElementById("superSoma").innerHTML = msg
+function mostraTabela() {
+    let table = "<table border='2'><tr><th>Números até 200</th><th>É primo?</th></tr>"
+
+    for (let i = 0; i <= 200; i++) {
+        table += "<tr><td>" + i + "</td><td>"
+        if (ehPrimo(i)) {
+            table += "<span style='color:red;'>Sim</span>"
+        } else {
+            table += "Não"
+        }
+        table += "</td></tr>"
+    }
+
+    table += "</table>"
+    document.getElementById("tabela").innerHTML = table
+}
+
+mostraTabela()
