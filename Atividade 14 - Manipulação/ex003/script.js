@@ -1,3 +1,8 @@
-function abreGoogle(){
-    window. open("http://google.com.br", "_blank")
-}
+function mostraProximoInput(currentInput) {
+    if (currentInput.value!== "") {
+        const nextFieldContainer = currentInput.nextElementSibling;
+        if (nextFieldContainer) {
+          nextFieldContainer.style.display = "block";
+        }
+      }
+  }
